@@ -1,0 +1,196 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    height: 100vh;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    background-image: url('/images/cover.png');
+    background-image: url('/images/coverTwo.png');
+    /* background-image: url('/images/coverThree.png'); */
+    /* background-image: url('/images/coverFive.png'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* overflow: hidden; */
+  }
+
+
+
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+
+
+.mainTitle .logo {
+    font-family: 'Borel', cursive;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+span.logo {
+    margin: 20px;
+}
+
+.logoTwo {
+    font-family: 'Borel', cursive;
+    font-size: 1.3rem;
+}
+
+.mainSection {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 6rem;
+    text-align: center;
+    /* color: rgb(245, 12, 129); */
+    animation: pulsate 0.11s ease-in-out infinite alternate;  
+     font-weight: 400;
+    line-height: 1;
+    font-family: "Vibur", sans-serif;
+    margin: 20px;
+}
+
+.neonText {
+    /* color: rgb(243, 251, 243); */
+    color: #f09;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #f09,
+      0 0 82px #f09,
+      0 0 92px #f09,
+      0 0 102px #f09,
+      0 0 151px #f09;
+  }
+
+  @keyframes pulsate {
+    
+    100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #f09,
+        0 0 80px #f09,
+        0 0 90px #f09,
+        0 0 100px #f09,
+        0 0 150px #f09;
+    
+    }
+    
+    0% {
+  
+      text-shadow:
+      0 0 4px #fff,
+      0 0 10px #fff,
+      0 0 18px #fff,
+      0 0 38px #f09,
+      0 0 73px #f09,
+      0 0 80px #f09,
+      0 0 94px #f09,
+      0 0 140px #f09;
+  
+  }
+}
+
+.mainText {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+input {
+    width: 500px;
+    outline:none;
+    padding: 0 5px;
+    font-size:1.2rem;
+}
+
+input, button {
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+}
+
+button {
+    width: 150px;
+    background: #f09;
+    color: white;
+    transition: color 100ms;
+    font-size: 1.2rem;
+}
+
+
+button:hover,
+button:focus {
+  background-color: #F082AC;
+}
+
+h2 {
+    margin: 10px;
+    text-align: center;
+    font-size: 2.5rem;
+    /* color: white; */
+  }
+
+
+.drinkImg {
+    border-radius: 10px;
+}
+
+
+.recipeSection {
+    width: 800px;
+    height: 50vh;
+    width: 600px;
+    border-radius: 10px;
+    /* background-color: #fff; */
+    margin: 10px;
+}
+
+
+  img{
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+  }
+
+  h3 {
+    margin: 10px;
+    text-align: center;
+    /* color: #fff; */
+    color: black;
+  }
+
+  footer {
+    text-align: center;
+    /* color: #fff; */
+  }
+
+  footer  span {
+    font-family: 'Borel', cursive;
+    text-align: center;
+  } 
+
+  
+  
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
