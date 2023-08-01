@@ -13,8 +13,8 @@
     height: 100vh;
     align-items: center;
     font-family: 'Outfit', sans-serif;
-    background-image: url('./images/cover.png');
-    background-image: url('./images/coverTwo.png');
+    background-image: url('../images/cover.png');
+    background-image: url('../images/coverTwo.png');
     /* background-image: url('/images/coverThree.png'); */
     /* background-image: url('/images/coverFive.png'); */
     background-size: cover;
